@@ -1,0 +1,11 @@
+com\noob\uaa\request\LoginRequest.class
+com\noob\uaa\entity\Role.class
+com\noob\uaa\UaaServiceApplication.class
+com\noob\uaa\repository\UserRepository.class
+com\noob\uaa\entity\User.class
+com\noob\uaa\service\UserService.class
+com\noob\uaa\dbmigration\UserInitializerChange.class
+com\noob\uaa\service\UserServiceImpl.class
+com\noob\uaa\controller\AuthController.class
+com\noob\uaa\response\APIResponse.class
+com\noob\uaa\controller\InternalController.class
