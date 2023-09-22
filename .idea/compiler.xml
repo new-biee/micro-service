@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="register-service" />
+        <module name="post-service" />
+        <module name="resigter" />
+        <module name="uua-service" />
+        <module name="gateway-service" />
+        <module name="uaa-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="post-service" target="17" />
+      <module name="register-service" target="17" />
+      <module name="resigter" target="17" />
+      <module name="uaa-service" target="17" />
+      <module name="uua-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="post-service" options="-parameters" />
+      <module name="register-service" options="-parameters" />
+      <module name="resigter" options="-parameters" />
+      <module name="uaa-service" options="-parameters" />
+      <module name="uua-service" options="-parameters" />
+    </option>
+  </component>
+</project>
